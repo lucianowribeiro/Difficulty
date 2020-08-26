@@ -1,17 +1,12 @@
 
 const root = document.querySelector("#root")
-const content = "WELCOME"
-const subContent = "in my kindom"
+const content = "difficulty"
 
 const title = Title`
-    color: #900090;
-    font-size: 30px;
-    height: 100vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    ${content}       
-    ${subContent}
+    color: #c56cf0;
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+    ${content}      
 `
 
-root.insertAdjacentHTML('beforeend',title)
+root.insertAdjacentHTML('beforeend',title) 
