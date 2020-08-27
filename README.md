@@ -1,2 +1,4 @@
 # Difficulty
-Example using Tagged Template String for traning js skills  
+A simple difficulty option screen
+
+Just for fun an studying :)
