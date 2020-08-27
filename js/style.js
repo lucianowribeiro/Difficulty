@@ -9,11 +9,27 @@ const style = `<style>
     #root{
         box-sizing: border-box;
         background-color: #1e3799;
-        width: 40vw;
-        height: 60vh; 
+        width: 700px;
+        height: 450px; 
         font-family: 'Press Start 2P', cursive;
         text-align: center;
-        padding-top: 4rem;
+        padding-top: 3rem;
+    }
+    div::before{
+        content: '';
+        display:inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    div:hover[id='easy']::before{
+        background-color: green;
+    }
+    div:hover[id='medium']::before{
+        background-color: yellow;
+    }
+    div:hover[id='hard']::before{
+        background-color: red;
     }
 </style>`
 

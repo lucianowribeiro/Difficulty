@@ -1,5 +1,4 @@
-
-const root = document.querySelector("#root")
+let root = document.querySelector("#root")
 const content = "difficulty"
 
 const title = Title`
@@ -9,4 +8,4 @@ const title = Title`
     ${content}      
 `
 
-root.insertAdjacentHTML('beforeend',title) 
+root.insertAdjacentHTML('afterbegin',title)    
