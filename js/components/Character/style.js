@@ -1,4 +1,4 @@
-const path = ['/home/luciano/Documents/curso-js-feliz/imgs/happy-face.png','/home/luciano/Documents/curso-js-feliz/imgs/shy-face.png','/home/luciano/Documents/curso-js-feliz/imgs/angry-face.png']
+const path = ['imgs/happy-face.png','imgs/shy-face.png','imgs/angry-face.png']
 const  character = Character`  
     padding-top: 1.8rem;
     ${path}
