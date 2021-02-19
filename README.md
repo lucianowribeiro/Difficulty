@@ -5,4 +5,4 @@ Credits: Mini curso de JavaScript feliz - Dia 03/04 on Twich by https://github.c
 
 Just for fun an studying :smile:
 
-![](imgs/screen.png)
+![](imgs/difficulty.gif)
