@@ -12,7 +12,7 @@ root.insertAdjacentHTML('beforeend',slide)
 
 const char = document.querySelector("img") 
 
-document.querySelector("#easy").onclick = function(){
+/* document.querySelector("#easy").onclick = function(){
     char.src = path[0]
 }
 document.querySelector("#medium").onclick = function(){
@@ -20,4 +20,8 @@ document.querySelector("#medium").onclick = function(){
 }
 document.querySelector("#hard").onclick = function(){
     char.src = path[2]
-}
+} */
+
+document.querySelector("#easy").addEventListener("mouseenter",(event)=> char.src = path[0]);
+document.querySelector("#medium").addEventListener("mouseenter",(event)=> char.src = path[1]);
+document.querySelector("#hard").addEventListener("mouseenter",(event)=> char.src = path[2]);
